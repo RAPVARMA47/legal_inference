@@ -4,7 +4,7 @@ import requests
 import html
 from urllib.parse import urlencode
 
-st.set_page_config(page_icon = "👨‍⚖️", page_title = "Inference")
+st.set_page_config(page_icon = "👨‍⚖️", page_title = "Inference", layout = "wide")
 
 hide_st_style = """
     <style>
