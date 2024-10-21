@@ -78,7 +78,7 @@ def display_documents(docs):
         st.markdown(html_content, unsafe_allow_html=True)
 
 def main():
-    st.set_page_config(page_title="Indian Kanoon Legal Search", layout="wide")
+    
 
     # Custom CSS for the page
     st.markdown("""
