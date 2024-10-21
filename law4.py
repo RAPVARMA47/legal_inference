@@ -103,7 +103,7 @@ def main():
             font-size: 30px;
             font-weight: 600;
             margin-top : -70px;
-            margin-left: 600px;
+            margin-left: 300px;
 
         }
  
