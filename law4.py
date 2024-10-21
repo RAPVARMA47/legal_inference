@@ -9,7 +9,7 @@ SEARCH_API_URL = 'https://api.indiankanoon.org/search/'
 DOC_API_URL = 'https://api.indiankanoon.org/doc/'
 API_HEADERS = {
     'Content-Type': 'application/x-www-form-urlencoded',
-    'Authorization':st.secrets["key"]  # Replace with your actual token
+    'Authorization': 'Token 68f11641a79c33c99fbb97fd5edfc6740708ea2b'
 }
 
 def fetch_documents(query):
