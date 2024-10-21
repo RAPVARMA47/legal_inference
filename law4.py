@@ -102,7 +102,7 @@ def main():
             color: rgb(26, 115, 232);
             font-size: 30px;
             font-weight: 600;
-            margin-top : -70px;
+            margin-top : -100px;
             margin-left: 400px;
 
         }
