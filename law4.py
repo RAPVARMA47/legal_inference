@@ -4,6 +4,17 @@ import requests
 import html
 from urllib.parse import urlencode
 
+st.set_page_config(page_icon = "👨‍⚖️", page_title = "Inference")
+
+hide_st_style = """
+    <style>
+    # MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # Define the API URL and headers
 SEARCH_API_URL = 'https://api.indiankanoon.org/search/'
 DOC_API_URL = 'https://api.indiankanoon.org/doc/'
@@ -95,9 +106,12 @@ def main():
             margin-left: 600px;
 
         }
+ 
 
         </style>
         """, unsafe_allow_html=True)
+    
+    
 
     # Check if we're in document view mode
     if 'tid' in st.query_params:
